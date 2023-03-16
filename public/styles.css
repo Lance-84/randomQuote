@@ -1,0 +1,38 @@
+:root {
+    --main-color: rgb(119, 177, 169);
+  }
+  
+  body {
+    background-color: var(--main-color);
+    font-family: monospace;
+  }
+  
+  #root {
+    position: absolute;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    background-color: #fff;
+    color: var(--main-color);
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: justify;
+  }
+  
+  #qtbtn {
+    font-size: 1rem;
+    padding: 10px;
+    background-color: var(--main-color);
+    border: none;
+    color: #fff;
+    float: right;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: right;
+  }
